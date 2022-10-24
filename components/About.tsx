@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import React from 'react';
-import andrew from '../public/andrew.jpeg';
 
 type Props = {};
 
