@@ -23,12 +23,14 @@ export default function Header({}: Props) {
         <SocialIcon 
           url='https://github.com/acvdoandrew' 
           fgColor='gray' 
-          bgColor='transparent' 
+          bgColor='transparent'
+          target='_blank'
         />
         <SocialIcon 
           url='https://www.linkedin.com/in/andrew-acevedo-se/' 
           fgColor='gray' 
-          bgColor='transparent' 
+          bgColor='transparent'
+          target='_blank'
         />
       </motion.div>
       <motion.div 
