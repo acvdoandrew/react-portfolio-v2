@@ -11,7 +11,7 @@ export default function SingleSkill({ directionUp, skill }: Props) {
   return (
     <div>
         <motion.img 
-            initial={{ y: directionUp ? -200 : 200, opacity: 0 }}
+            initial={{ y: directionUp ? 200 : -200, opacity: 0 }}
             transition={{ duration: 1 }}
             whileInView={{ opacity: 1, y: 0 }}
             src={skill?.image}
